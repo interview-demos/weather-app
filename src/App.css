@@ -1,0 +1,41 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.weather-container {
+  text-align: center;
+}
+
+.weather-container h1 {
+  margin-bottom: 2rem;
+  color: #1890ff;
+}
+
+.ant-card {
+  height: 100%;
+  transition: all 0.3s;
+}
+
+.ant-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.ant-card-head-title {
+  color: #1890ff;
+}
