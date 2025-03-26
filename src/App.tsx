@@ -58,7 +58,7 @@ function App() {
                 <Card title={day.date}>
                   <p>天气状况：{day.weather}</p>
                   <p>温度：{day.temperature}</p>
-                  <p>风向：{day.direct} km/h</p>
+                  <p>风向：{day.direct}</p>
                 </Card>
               </Col>
             ))}
