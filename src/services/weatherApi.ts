@@ -20,7 +20,6 @@ const querySimpleWeather = async (location: string): Promise<WeatherResponse> =>
 };
 
 export const getWeatherForecast = async (location: string = '上海'): Promise<WeatherResponse> => {
-    // 模拟API延迟
-    await new Promise(resolve => setTimeout(resolve, 500));
+
     return querySimpleWeather(location);
 };
